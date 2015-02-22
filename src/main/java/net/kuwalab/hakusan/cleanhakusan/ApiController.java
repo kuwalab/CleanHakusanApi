@@ -19,4 +19,9 @@ public class ApiController {
 	public String chouList() {
 		return CHOU_LIST;
 	}
+
+	@RequestMapping(value = "/trashNoList", method = RequestMethod.GET, produces = "application/json")
+	public String trashNoList() {
+		return TRASN_NO_LIST;
+	}
 }
